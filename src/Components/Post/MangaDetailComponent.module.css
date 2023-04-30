@@ -1,0 +1,86 @@
+.likeBtn{
+    margin-top: 80px;
+    margin-left: 87%;
+    margin-bottom: 20px;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    font-size: 30px;
+    color: white;
+    text-decoration: underline;
+    cursor: pointer;
+    
+}
+
+.image{
+    display: block;
+    margin: auto;
+    width: 180px;
+}
+
+.light-title{
+    color: rgb(0, 0, 0);
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: justify;
+}
+
+.dark-title{
+    color: rgb(189, 188, 195);
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: justify;
+}
+
+/* .status{
+    color: rgb(168, 161, 235);
+    margin-top: 30px;
+    margin-left: 5px;
+}
+
+.genre{
+    color: rgb(168, 161, 235);
+    margin-top: 30px;
+    margin-left: 5px;
+}
+
+.year{
+    color: rgb(168, 161, 235);
+    margin-top: 30px;
+    margin-left: 5px;
+} */
+
+.descriptionTitle{
+    color: rgb(168, 161, 235);
+    margin-top: 30px;
+    margin-left: 5px;
+}
+
+.light-descriptionContent{
+    margin-bottom: 83px;
+    margin-left: 5px;
+    margin-right: 8px;
+    text-align: justify;
+    text-indent: 15px;
+    color: rgb(0, 0, 0);
+}
+
+.dark-descriptionContent{
+    margin-bottom: 83px;
+    margin-left: 5px;
+    margin-right: 8px;
+    text-align: justify;
+    text-indent: 15px;
+    color: rgb(189, 188, 195);
+}
+
+.light-background{
+    background-color: rgb(251, 227, 88);
+}
+
+.dark-background{    
+    background-color: rgb(32, 32, 31);
+}
+

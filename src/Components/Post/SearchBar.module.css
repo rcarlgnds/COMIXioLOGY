@@ -1,0 +1,23 @@
+.searchBar{
+    margin-top: 10px;
+    margin-left: 20%;
+    display: flex; /* add flexbox to parent container */
+    align-items: center;
+}
+
+.searchbtn{
+    background-color:transparent;
+    border: none;
+    
+}
+
+.box{
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 5px 10px
+    
+}
+
+.result{
+    margin-right: 40px;
+}
