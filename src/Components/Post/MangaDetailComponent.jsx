@@ -88,7 +88,7 @@ function MangaDetailComponent(){
             </svg></h2>
             <h2 className={`${classes.light-title} ${theme === THEME.light ? classes['light-title'] : classes['dark-title']}`}>Genre   : {genres.join(', ')}</h2>
             <h2 className={`${classes.light-title} ${theme === THEME.light ? classes['light-title'] : classes['dark-title']}`}>Description      : </h2>
-            <p className={`${classes.light-title} ${theme === THEME.light ? classes['light-descriptionContent'] : classes['dark-descriptionContent']}`}>{description}</p>
+            <p className={`${classes.light-title} ${theme === THEME.light ? classes['light-descriptionContent'] : classes['dark-descriptionContent']}`} dangerouslySetInnerHTML={{ __html: description }}></p>
         </div>
     );
 }
